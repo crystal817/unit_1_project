@@ -4,6 +4,8 @@ body {
     padding:20px;
     border:20px;
     background-color:steelblue ;
+    font-family:American Typewriter;
+    font-size: 30px ;
 }
 
 .container {
@@ -34,6 +36,7 @@ body {
 } 
 
 header {
+    font-family:American Typewriter;
     text-align: center;
 }
 
@@ -57,13 +60,20 @@ header {
 }
 
 .btn-btn-choice {
+    background-color: antiquewhite;
+    font-size: 20px;
     margin-left:32px;
-    height: 40px;
-    width: 75px;
+    height: 90px;
+    width: 100px;
     display:flex;
     align-items:center;
     justify-content: center;
     margin:auto;
+}
+
+.btn-btn-choice:hover {
+    box-shadow: 0px 0px 20px 0px;
+    color: blue;
 }
 
 .ctrl-btn {

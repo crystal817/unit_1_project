@@ -26,7 +26,7 @@ const question = [
         ]
     },
     {
-        question:'What Is The Capital Of New York',
+        question:'What Is The Capital Of New York?',
         choices: [
             {
             incorrect1:'Buffalo',
@@ -38,7 +38,7 @@ const question = [
         ]
     },
     {
-        question:' When Was New York Founded',
+        question:' When Was New York Founded?',
         choices: [
             {
             incorrect1:'1624',
