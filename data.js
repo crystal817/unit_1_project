@@ -1,5 +1,5 @@
+// In this JavaScript file I created an array  that holds objects 
 
-// let points =0;
 const question = [
     {
         question: 'Who Was The First Mayor Of New York?',

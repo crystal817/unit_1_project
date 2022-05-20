@@ -1,27 +1,13 @@
 let count1 = 1;
 
-// const restartBtn = document.getElementById('restart');
-// const nextBtn = document.getElementById('next');
-// const submitBtn = document.getElementById('submit');
-// const options = document.querySelector('.options');
-// const userScore=document.getElementById('user-score');
-// const questionContainer = document.getElementById('question-container');
 const questionText1 = document.getElementById('question-text1')
 
 const choice4 = document.getElementById('choice4');
 const choice5 = document.getElementById('choice5');
 const choice6 = document.getElementById('choice6');
 
-// const countTracker1 = document.getElementById('count')
-// console.log(countTracker1)
 
-// let checkAnswer1 = [];
-
-
-// restartBtn.addEventListener('click',restart);
-// submitBtn.addEventListener('click',submit);
-// options.addEventListener('click',choice1);
-
+// I did the same process in four other JS files for each question 
 
 function game() {
     return  questionText1.innerHTML = question[1].question,
@@ -63,10 +49,6 @@ choice6.addEventListener('click',function(){
 
 
 
-
-
-
-// console.log(question);
 
 
 

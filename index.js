@@ -17,12 +17,12 @@ console.log(countTracker)
 
 let checkAnswer = [];
 
-
+// these dont actually work but when removed breaks my code 
 restartBtn.addEventListener('click',restart);
 submitBtn.addEventListener('click',submit);
 options.addEventListener('click',choice1);
 
-
+// I used innerHtml so that the questions can upper above the question answer choices 
 function game() {
     return  questionText.innerHTML = question[0].question,
         choice1.innerHTML = question[0].choices[0].incorrect1,
@@ -32,7 +32,7 @@ function game() {
 
 game()
 
-
+// I added event listener to each choice so that when clicked theres a response telling you if your choice is correct or incorrect. When the correct choice is picked the points increases by one out of 5 
 choice1.addEventListener('click',function(){
     checkAnswer = choice1
     alert("incorrect");
